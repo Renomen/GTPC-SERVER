@@ -34,7 +34,7 @@ WEB_ENV=development
 
 ## Database
 
-Database that we currently use is SQLite, since its easier & light instead of using JSON.
+Database that we currently use is SQLite, since its easier & light instead of using JSON. (İ love jsons)
 And for the ORM we are using [Drizzle-ORM](https://orm.drizzle.team/)
 
 To view the database you can run this command below:
@@ -43,7 +43,7 @@ To view the database you can run this command below:
 $ npm run studio
 ```
 
-and access it on here https://local.drizzle.studio/
+and access it on here **only works on windows** https://local.drizzle.studio/
 
 ## Starting server
 
@@ -51,6 +51,7 @@ To run the development server by
 
 ```
 $ npm run start
+$ npm run dev
 ```
 
 ## Development
@@ -95,3 +96,7 @@ Give a thumbs to these cool people:
 - [Alexander (Syn9673)](https://github.com/Syn9673)
 - [Restart](https://github.com/iRestartz)
 - [Ritshu](https://github.com/Ritshu)
+
+## Special Thanks
+to growserver developers 
+- JadlionHD
