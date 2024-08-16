@@ -18,6 +18,11 @@ export default class extends Action {
     const item = this.base.items.metadata.items.find((v) => v.id === itemID);
     const peerItem = peer.data?.inventory?.items.find((v) => v.id === itemID);
 
+    //reno added
+    if (itemID === 18 || itemID === 32) {
+      peer.send(Variant.from("OnConsoleMessage", "This item cannot be trashed."));
+      return;
+}
     const dialog = new DialogBuilder()
       .defaultColor()
       .addLabelWithIcon(`\`4Trash\`\` ${item?.name?.value}`, item?.id || 0, "big")
